@@ -1,2 +1,2 @@
 #!/bin/bash
-if [$guillaume = $USER] then chown betty hello
+if [$guillaume = $USER] then chown betty hello fi
