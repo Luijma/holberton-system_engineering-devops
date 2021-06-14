@@ -1,2 +1,2 @@
 #!bin/bash
-
+stdout > "Hello, World\n"
