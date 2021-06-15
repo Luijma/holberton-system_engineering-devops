@@ -1,2 +1,2 @@
 #!/bin/bash
-let "$BREATH ** $LOVE"
+expr "$BREATH ** $LOVE"
