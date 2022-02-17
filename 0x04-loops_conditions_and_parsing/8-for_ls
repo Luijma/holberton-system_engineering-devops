@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# prints file names without numbering
+LIST="$(ls)"
+
+for files in $LIST
+do
+	trim="${files#*-}"
+	echo $trim
+done
