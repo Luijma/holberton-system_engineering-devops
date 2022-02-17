@@ -5,5 +5,5 @@ LIST="$(ls)"
 for files in $LIST
 do
 	trim="${files#*-}"
-	echo $trim
+	echo "$trim"
 done
