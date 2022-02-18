@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# tells a story with etc/passwd
+filename="etc/passwd"
+
+while IFS=: read -r username password userid groupid comment homedir command; do
+	echo "The user $username is part of the $groupid gang, lives in $homedir and rides $command. $userid's place is protected by the passcode $password, more info about the user here: $comment"
+done < "$filename"
+
