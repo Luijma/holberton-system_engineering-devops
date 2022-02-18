@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# adds display to script 4 after receiving SIGTERM
+
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+	trap "echo I am invincible!!!" SIGTERM
+
+done
