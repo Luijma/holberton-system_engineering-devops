@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # What is my pid
 
-echo "$$"
+echo $$
