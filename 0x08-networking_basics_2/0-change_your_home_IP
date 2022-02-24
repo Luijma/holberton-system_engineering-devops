@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# changes localhost and facebook.com in host file
+sed -i 's/127.0.0.1/127.0.0.2/g' /etc/hosts
+sed -i '/facebook.com/d' /etc/hosts
+sed -i '$ a 8.8.8.8\t\tfacebook.com' /etc/hosts
