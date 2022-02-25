@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+# opens a port and listens in
 sudo ufw allow 98
 nc -l -p 98
