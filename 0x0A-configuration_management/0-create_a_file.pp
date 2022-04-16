@@ -1,4 +1,4 @@
-# Create a file in /tmp for task 0
+# Create a file in /tmp
 
 file { 'school':
   ensure  => 'file',
