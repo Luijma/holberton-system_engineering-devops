@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # creats rsa key pair for task 1
-
 ssh-keygen -b 4096 -f school -N betty
