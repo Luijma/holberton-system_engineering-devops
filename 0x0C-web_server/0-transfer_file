@@ -10,6 +10,6 @@ else
 	hostname=$2
 	username=$3
 	SSHPATH=$4
-	scp -o StrictHostKeyChecking=no -i "$SSHPATH" "$file_name" "$username"@"$hostname":~/
+	scp -o StrictHostKeyChecking=no -i "$SSHPATH" "$file_name" "$username@$hostname":~/
 
 fi
