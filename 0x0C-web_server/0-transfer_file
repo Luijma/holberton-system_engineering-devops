@@ -2,13 +2,14 @@
 # transfers file to given server
 argc=$#
 
-if [ $argc -eq 4 ]
+if [ $argc -lt 3 ]
 then
+	echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
+else
 	file_name=$1
 	hostname=$2
 	username=$3
 	SSHPATH=$4
 	scp -o StrictHostKeyChecking=no -i "$SSHPATH" "$file_name" "$username"@"$hostname":~/
-else
-	echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
+
 fi
