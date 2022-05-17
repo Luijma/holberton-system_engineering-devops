@@ -21,7 +21,7 @@ if __name__ == '__main__':
         emp_response = requests.get(REST + 'users/' + emp_id)
 
         # Extract employee info from response
-        emp_name = emp_response.json().get("name")
+        emp_name = emp_response.json().get("username")
 
         # Request for todo-list information and make dictionary
         todo_response = requests.get(REST + 'todos?userId=' + emp_id)
@@ -35,6 +35,6 @@ if __name__ == '__main__':
         with open(emp_id + '.csv', 'w', encoding='utf-8') as csv_file:
             for task in tasks:
                 csv_file.write('"{}","{}","{}","{}"\n'.
-                          format(emp_id, emp_name,
-                                 task.get("completed"),
-                                 task.get("title")))
+                               format(emp_id, emp_name,
+                                      task.get("completed"),
+                                      task.get("title")))
