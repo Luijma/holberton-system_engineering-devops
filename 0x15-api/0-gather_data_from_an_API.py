@@ -37,6 +37,6 @@ if __name__ == '__main__':
                 tasks_done += 1
                 task_string += "\t " + task.get('title') + '\n'
             task_count += 1
-        print("Employee {} is done with tasks({}/{})"
+        print("Employee {} is done with tasks({}/{}):"
               .format(emp_name, tasks_done, task_count))
         print(task_string, end="")
