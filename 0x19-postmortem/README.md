@@ -1,4 +1,4 @@
-
+![Screenshot](Trying\ to\ be\ funny\ for\ grades.jpeg)
 # Project 0x19-Postmortem
 
 This is an incident report based on the Holberton School project Web stack debugging #1
