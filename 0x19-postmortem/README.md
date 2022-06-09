@@ -1,4 +1,4 @@
-![alt text]([http://url/to/img.png](https://drive.google.com/file/d/1RqTEu3CiyYkcrYHFc08UUGUZDS-oKXRi/view?usp=sharing))
+
 # Project 0x19-Postmortem
 
 This is an incident report based on the Holberton School project Web stack debugging #1
