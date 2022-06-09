@@ -1,5 +1,5 @@
 
-![My image](Luijma.github.com/holberton-system_engineering-devops/Tryingfunnyforgrades.jpg.jpg)
+![Alt text](../Tryingfunnyforgrades.jpg?raw=true "Funny picture")
 
 # Project 0x19-Postmortem
 
