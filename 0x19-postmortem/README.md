@@ -1,4 +1,4 @@
-[My image](Luijma.github.com/holberton-system_engineering-devops/Tryingfunnyforgrades.jpg.jpg)
+![My image](Luijma.github.com/holberton-system_engineering-devops/Tryingfunnyforgrades.jpg.jpg)
 # Project 0x19-Postmortem
 
 This is an incident report based on the Holberton School project Web stack debugging #1
